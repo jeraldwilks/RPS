@@ -15,5 +15,5 @@ app.listen(PORT, () => {
   console.log(`Listening on port: `, PORT);
 });
 
-// app.use(express.static("public"));
-app.use(express.static("../frontend/dist/"));
+app.use(express.static("public"));
+// app.use(express.static("../frontend/dist/"));
